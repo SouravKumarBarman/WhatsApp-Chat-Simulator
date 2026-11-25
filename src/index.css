@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+  }
+}
+
+.wa-ios-font {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wa-android-font {
+  font-family: "Roboto", "Segoe UI", "Noto Sans", Arial, sans-serif;
+}
+
+/* Subtle custom scrollbars for the studio editor */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(161, 161, 170, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(161, 161, 170, 0.45);
+}
